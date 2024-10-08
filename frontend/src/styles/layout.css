@@ -1,0 +1,25 @@
+/* layout.css */
+
+/* Overall layout container */
+.layout {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack header and content vertically */
+    min-height: 100vh; /* Ensure the layout takes at least the full height of the viewport */
+    padding-top: 200px;
+}
+
+/* Content area below the header */
+.content {
+    flex: 1; /* Take up remaining space in the layout */
+    padding: 20px; /* Add some padding around the content */
+    background-color: #ffffff; /* White background for content area */
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    border-radius: 8px; /* Rounded corners for content area */
+}
+
+/* Optional styling for responsiveness */
+@media (max-width: 768px) {
+    .content {
+        padding: 10px; /* Reduce padding on smaller screens */
+    }
+}

@@ -1,0 +1,45 @@
+/* Container for the menu bar */
+.menu-bar {
+    display: flex;
+    justify-content: space-between; /* Aligns items with space between */
+    align-items: center; /* Centers items vertically */
+    background-color: #4CAF50; /* Green background */
+    padding: 15px 20px; /* Padding around the menu bar */
+    color: white; /* Text color */
+}
+
+/* Menu items */
+.menu-item {
+    margin: 0 15px; /* Space between menu items */
+    text-decoration: none; /* Remove underline from links */
+    color: white; /* Text color */
+    font-weight: bold; /* Bold text */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for menu items */
+.menu-item:hover {
+    color: #d4edda; /* Light green on hover */
+}
+
+/* Admin name display */
+.admin-name {
+    font-size: 16px; /* Font size for admin name */
+}
+
+/* Logout button */
+.logout-button {
+    background-color: #f44336; /* Red background for logout */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    padding: 10px 15px; /* Padding for the button */
+    cursor: pointer; /* Change cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition */
+    max-width: 80px;
+}
+
+/* Hover effect for logout button */
+.logout-button:hover {
+    background-color: #e57373; /* Lighter red on hover */
+}

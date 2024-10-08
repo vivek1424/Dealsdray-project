@@ -1,0 +1,19 @@
+.header {
+    background-color: #f8f9fa; /* Light background for the header */
+    padding: 20px 0; /* Space above and below the header */
+    display: flex; /* Use flexbox for layout */
+    align-items: center; /* Center items vertically */
+    width: 90%;
+
+}
+
+.logo {
+    
+    padding-top: 10px;
+    max-width: 150px; /* Adjust the size of the logo */
+    height: auto; /* Maintain aspect ratio */
+    margin-left: 20px; /* Optional: add margin to the left */
+    /* Additional styles for positioning */
+    position: relative; /* Ensure positioning context */
+    top: 0; /* Align to the top */
+}

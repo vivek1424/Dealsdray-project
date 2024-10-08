@@ -1,0 +1,58 @@
+/* UpdateEmployeeForm.css */
+
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px; /* Limit the form width */
+    margin: 0 auto; /* Center the form */
+    padding: 20px; /* Add padding */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    background-color: #f9f9f9; /* Light background color */
+}
+
+h2 {
+    text-align: center; /* Center the header */
+    margin-bottom: 20px; /* Space below the header */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select,
+input[type="file"] {
+    margin-bottom: 15px; /* Space below each input */
+    padding: 10px; /* Inner padding for inputs */
+    border: 1px solid #ccc; /* Light border */
+    border-radius: 4px; /* Rounded corners for inputs */
+    font-size: 16px; /* Increase font size */
+}
+
+input[type="file"] {
+    padding: 5px; /* Slight padding for file input */
+}
+
+button {
+    padding: 10px; /* Padding for button */
+    background-color: #007bff; /* Button color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Pointer on hover */
+    font-size: 16px; /* Increase font size */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+}
+
+select {
+    cursor: pointer; /* Pointer for select dropdown */
+}
+
+@media (max-width: 600px) {
+    form {
+        width: 90%; /* Responsive width for smaller screens */
+    }
+}
